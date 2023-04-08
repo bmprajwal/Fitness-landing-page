@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.626)), url("../img/bg.jpg");
+    background-position: center;
+    background-size: cover;
+    font-family: Poppins;
+    height: 590px;
+}
+
+.left {
+    /* border: 2px solid red; */
+    display: inline-block;
+    width: 150px;
+    position: absolute;
+    left: 20px;
+    top: 5px;
+    font-family: 'Bebas neue';
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.mid {
+    /* border: 2px solid blue; */
+    display: block;
+    width: 38%;
+    margin: 25px auto;
+}
+
+.right {
+    /* border: 2px solid yellow; */
+    display: inline-block;
+    width: 200px;
+    position: absolute;
+    right: 1px;
+    top: 25px;
+    margin: auto;
+}
+.navbar li a{
+    text-decoration: none;
+    color: white;
+}
+.navbar li a:hover, .navbar li a.active{
+    text-decoration: underline;
+    color: rgb(199, 199, 199);
+}
+.navbar li{
+    list-style: none;
+    display: inline-block;
+    margin: 0px 10px;
+    padding: 0px 10px;
+}
+.left img{
+    width: 60px;
+    filter: invert(100%);
+    display: block;
+    margin: auto;
+}
+.left h3{
+    text-align: center;
+    margin-top: 1px;
+}
+.btn{
+    background: none;
+    color: rgb(220, 220, 220);
+    border-radius: 3px;
+    padding: 5px 16px;
+    margin: 1px 2px;
+    cursor: pointer;
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0, 0.192);
+    border: 1px solid grey;
+}
+.btn:hover{
+    background-color: rgba(125, 122, 122, 0.283);
+}
+.container{
+    height: auto;
+    width: auto;
+}
+.callus{
+    width: 170px;
+    height: 30px;
+    background-color: blanchedalmond;
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+    padding: 10px 8px;
+    text-align: center;
+    border-radius: 2px;
+    font-size: 22px;
+}
+.callus a{
+    text-decoration: none;
+    color: brown;       
+}
+.container{
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    margin-top: 170px;
+}
+.container p{
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+#caption{
+    font-size: 90px;
+    font-weight: bolder;
+}
+#name{
+    font-size: 25px;
+    margin-top: -15px;
+    
+}
+.container .btn{
+    display: block;
+    margin: auto;
+    padding: 7px 40px;
+    font-size: 15px;
+    margin-top: 20px;
+    background-color: rgba(43, 42, 42, 0.486);
+    border: 1px solid grey;
+    color: beige;
+}
+.container .btn:hover{
+    background-color: rgba(43, 42, 42, 0.776);
+    color: rgb(255, 255, 234);
+}
